@@ -1,0 +1,133 @@
+# ---- Byte-compiled / optimized / DLL files ----
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ---- C extensions ----
+*.so
+
+# ---- Distribution / packaging ----
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ---- PyInstaller ----
+# Usually created after building an executable
+*.manifest
+*.spec
+
+# ---- Installer logs ----
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ---- Unit test / coverage reports ----
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+
+# ---- Translations ----
+*.mo
+*.pot
+
+# ---- Django related ----
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+# ---- Flask related ----
+instance/
+.webassets-cache
+
+# ---- Scrapy related ----
+.scrapy
+
+# ---- Sphinx documentation ----
+docs/_build/
+build/
+temp/
+
+# ---- Jupyter Notebook checkpoints ----
+.ipynb_checkpoints
+
+# ---- pyenv ----
+.python-version
+
+# ---- pipenv ----
+Pipfile.lock
+
+# ---- poetry ----
+poetry.lock
+
+# ---- Environments ----
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+.venv/
+.env/
+
+# ---- Spyder / Rope IDE ----
+.spyderproject
+.spyproject
+.ropeproject
+
+# ---- VS Code / PyCharm ----
+.vscode/
+.idea/
+*.iml
+
+# ---- macOS / Windows system files ----
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# ---- Temporary files ----
+*.swp
+*.swo
+~$*
+*.tmp
+*.bak
+
+# ---- Logs ----
+*.log
+
+# ---- Environment variable files ----
+.env
+.env.local
+.env.*.local
+
+# ---- Custom cache ----
+cache/
+logs/
+tmp/
