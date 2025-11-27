@@ -13,11 +13,8 @@ def add_student(prompt: str = "Enter student name: ") -> None:
     allowed_chars = set(" -'")  # space, hyphen, apostrophe
 
     while True:
-        try:
-            name = input(prompt).strip()
-        except (EOFError, KeyboardInterrupt):
-            print("\nInput cancelled.")
-            return  # implicit None
+        name = input(prompt).strip()
+
 
         # Empty name is not allowed
         if not name:
@@ -136,7 +133,7 @@ def student_grade_analyzer() -> None:
     """
     while True:
         print(
-            f"--- Student Grade Analyzer ---\n"
+            f"\n--- Student Grade Analyzer ---\n"
             f"1. Add a new student\n"
             f"2. Add a grades for a student\n"
             f"3. Generate a full report\n"
